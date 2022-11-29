@@ -7,7 +7,7 @@ gem 'rails', '~> 6.1.7'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4'
 group :development, :test do
-  gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
+  gem 'sqlite3'
 end
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
