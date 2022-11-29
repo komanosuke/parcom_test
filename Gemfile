@@ -61,4 +61,6 @@ group :production do
   gem 'pg'
 end
 
-gem "net-smtp"
+gem 'net-smtp'
+gem 'net-imap'
+gem 'net-pop'
