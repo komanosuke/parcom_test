@@ -1,0 +1,96 @@
+<h1 id="ttl">スマートベンチ管理画面（デモ）</h1>
+
+<%= form_with url: "/", method: :get do |form| %>
+    <%= form.radio_button :status, true %>
+    <%= form.label :status_true, 'ON' %>
+    <%= form.radio_button :status, false %>
+    <%= form.label :status_false, 'OFF' %>
+    <%= form.submit "変更"  %>
+<% end %>
+<%= @judge %>
+
+<p>冷却FANを制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="FAN" value="FAN,ON"><span>ON</span></label>
+<label><input type="radio" name="FAN" value="FAN,OFF"><span>OFF</span></label>
+<%= @fan %>
+</div>
+
+<p>イベント用LEDを制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="LED" value="LED,ON"><span>ON</span></label>
+<label><input type="radio" name="LED" value="LED,OFF"><span>OFF</span></label>
+<%= @led %>
+</div>
+
+<p>LEDカラーを変更します</p>
+<div>
+<label><input type="radio" name="COLOR" value="COLOR,R:195,G:110,B:0"><span>変更</span></label>
+<label><input type="radio" name="COLOR" value="COLOR,R:0,G:0,B:0"><span>リセット</span></label>
+<%= @color %>
+</div>
+
+<p>液晶ディスプレイを制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="DISPLAY" value="DISPLAY,ON"><span>ON</span></label>
+<label><input type="radio" name="DISPLAY" value="DISPLAY,OFF"><span>OFF</span></label>
+<%= @display %>
+</div>
+
+<p>PDFを制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="PDF" value="PDF,ON:http://54.64.49.214/sample1.pdf"><span>ON</span></label>
+<label><input type="radio" name="PDF" value="PDF,OFF"><span>OFF</span></label>
+<%= @pdf %>
+</div>
+
+<p>画像を制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="PDF" value="PDF,ON:http://54.64.49.214/bench.jpg"><span>ON</span></label>
+<label><input type="radio" name="PDF" value="PDF,OFF"><span>OFF</span></label>
+<%= @img %>
+</div>
+
+<p>MP4を制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="MP4" value="MP4,ON:http://54.64.49.214/sample.mp4"><span>ON</span></label>
+<label><input type="radio" name="MP4" value="MP4,OFF"><span>OFF</span></label>
+<%= @mp4 %>
+</div>
+
+<p>オーディオを制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="AUDIO" value="AUDIO,ON"><span>ON</span></label>
+<label><input type="radio" name="AUDIO" value="AUDIO,OFF"><span>OFF</span></label>
+<%= @audio %>
+</div>
+
+<p>音量を変更します</p>
+<div>
+<label><input type="radio" name="VOLUME" value="VOLUME,10000"><span>ON</span></label>
+<label><input type="radio" name="VOLUME" value="VOLUME,0"><span>OFF</span></label>
+<%= @volume %>
+</div>
+
+<p>MP3を制御ON/OFFします</p>
+<div>
+<label><input type="radio" name="MP3" value="MP3,ON:http://54.64.49.214/sample/sample.mp3"><span>ON</span></label>
+<label><input type="radio" name="MP3" value="MP3,OFF"><span>OFF</span></label>
+<%= @mp3 %>
+</div>
+
+<p>USB用5V電源供給を許可ON/OFFします</p>
+<div>
+<label><input type="radio" name="USB5V" value="USB5V,ON"><span>ON</span></label>
+<label><input type="radio" name="USB5V" value="USB5V,OFF"><span>OFF</span></label>
+<%= @usb_v %>
+</div>
+
+<p>LOGを許可ON/OFFします</p>
+<div>
+<label><input type="radio" name="LOG" value="LOG,ON"><span>ON</span></label>
+<label><input type="radio" name="LOG" value="LOG,OFF"><span>OFF</span></label>
+<%= @log %>
+</div>
+
+<span class="response"></span>
