@@ -4,22 +4,32 @@ class ConnectController < ApplicationController
     require 'json'
   
     def post_message
-        uri = URI.parse("https://parcomsend.herokuapp.com/")
+        uri = URI.parse("https://parcomsend.herokuapp.com/index")
+        #URI指定
         http = Net::HTTP.new(uri.host, uri.port)
+        #Net::HTTPオブジェクトを作成
         http.use_ssl = true
+        #https通信をできるようにする
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-    
-        message = "hoge"
+        #ローカル環境から実行したい場合はこの記述によりSSL証明書の発行をすっ飛ばす。
     
         http.start do
             req = Net::HTTP::Post.new(uri.path)
-            req.set_form_data(body: message)
+            #POSTリクエストを作成
+            req.set_form_data(body: { 'message':'hogehoge' })
+            #bodyのデータをセット
             http.request(req)
+            #リクエストを投げる　返り値はレスポンス
         end
     end
 
     def index
-        @fan = 'fan'
+        random = Random.new()
+        @array = []
+        for i in 1..5 do
+            @array.push(random.rand(1..30))
+        end
+
         @led = 'led'
         @color = 'color'
         @display = 'display'
@@ -33,5 +43,6 @@ class ConnectController < ApplicationController
         @log = 'log'
 
         @judge = params[:status]
+        @fan = params
     end
 end

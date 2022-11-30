@@ -1,3 +1,10 @@
+<h1>Chart</h1>
+<% @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]] %>
+<%= line_chart @data %>
+<%= javascript_pack_tag 'index' %>
+
+<%= link_to 'JSONをなげる', {controller: 'connect', action:'post_message'} %>
+
 <h1 id="ttl">スマートベンチ管理画面（デモ）</h1>
 
 <%= form_with url: "/", method: :get do |form| %>
@@ -11,8 +18,13 @@
 
 <p>冷却FANを制御ON/OFFします</p>
 <div>
-<label><input type="radio" name="FAN" value="FAN,ON"><span>ON</span></label>
-<label><input type="radio" name="FAN" value="FAN,OFF"><span>OFF</span></label>
+<%= form_with url: "/", method: :get do |form| %>
+    <%= form.radio_button :fan, true %>
+    <%= form.label :fan_true, 'ON' %>
+    <%= form.radio_button :fan, false %>
+    <%= form.label :fan_false, 'OFF' %>
+    <%= form.submit "変更"  %>
+<% end %>
 <%= @fan %>
 </div>
 
@@ -94,5 +106,3 @@
 </div>
 
 <span class="response"></span>
-
-<%= javascript_pack_tag 'index' %>

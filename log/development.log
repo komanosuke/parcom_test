@@ -323,3 +323,1106 @@ Completed 200 OK in 42ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 116
   [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-11-30 15:17:49 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 968ddf46af74b465aae4
+Version: webpack 4.46.0
+Time: 2033ms
+Built at: 2022/11/30 15:17:54
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-177d04817f4c42bebd74.js    124 KiB  application  [emitted] [immutable]  application
+js/application-177d04817f4c42bebd74.js.map    136 KiB  application  [emitted] [dev]        application
+          js/index-d7f2a41b00135b533a33.js    4.9 KiB        index  [emitted] [immutable]  index
+      js/index-d7f2a41b00135b533a33.js.map   4.84 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-177d04817f4c42bebd74.js js/application-177d04817f4c42bebd74.js.map
+Entrypoint index = js/index-d7f2a41b00135b533a33.js js/index-d7f2a41b00135b533a33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.04 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 4971.7ms | Allocations: 6488)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5013.9ms | Allocations: 12204)
+Completed 200 OK in 5034ms (Views: 5018.5ms | ActiveRecord: 0.0ms | Allocations: 15079)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:21:56 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 12878)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 13335)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:24:03 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 35.2ms | Allocations: 4695)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 8415)
+Completed 200 OK in 64ms (Views: 59.2ms | Allocations: 9612)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:26:07 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 12354cf1a89d11b7320c
+Version: webpack 4.46.0
+Time: 1250ms
+Built at: 2022/11/30 15:26:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-177d04817f4c42bebd74.js    124 KiB  application  [emitted] [immutable]  application
+js/application-177d04817f4c42bebd74.js.map    136 KiB  application  [emitted] [dev]        application
+          js/index-d4faf1e0307a4c4301a2.js    5.1 KiB        index  [emitted] [immutable]  index
+      js/index-d4faf1e0307a4c4301a2.js.map   5.06 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-177d04817f4c42bebd74.js js/application-177d04817f4c42bebd74.js.map
+Entrypoint index = js/index-d4faf1e0307a4c4301a2.js js/index-d4faf1e0307a4c4301a2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.23 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 4117.3ms | Allocations: 5409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4167.2ms | Allocations: 8950)
+Completed 200 OK in 4174ms (Views: 4169.4ms | Allocations: 9407)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:30:44 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 13365470a7d4dc5d3f3b
+Version: webpack 4.46.0
+Time: 1137ms
+Built at: 2022/11/30 15:30:48
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-177d04817f4c42bebd74.js    124 KiB  application  [emitted] [immutable]  application
+js/application-177d04817f4c42bebd74.js.map    136 KiB  application  [emitted] [dev]        application
+          js/index-ad85d9c886f9fb77f46b.js   5.24 KiB        index  [emitted] [immutable]  index
+      js/index-ad85d9c886f9fb77f46b.js.map   5.24 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-177d04817f4c42bebd74.js js/application-177d04817f4c42bebd74.js.map
+Entrypoint index = js/index-ad85d9c886f9fb77f46b.js js/index-ad85d9c886f9fb77f46b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.38 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3842.8ms | Allocations: 5409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3854.9ms | Allocations: 8949)
+Completed 200 OK in 3861ms (Views: 3857.0ms | Allocations: 9402)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:42:52 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: de3b14157568a129581b
+Version: webpack 4.46.0
+Time: 5195ms
+Built at: 2022/11/30 15:43:00
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2d64b347d0c79dfe0b91.js    772 KiB  application  [emitted] [immutable]  application
+js/application-2d64b347d0c79dfe0b91.js.map    849 KiB  application  [emitted] [dev]        application
+          js/index-ad85d9c886f9fb77f46b.js   5.24 KiB        index  [emitted] [immutable]  index
+      js/index-ad85d9c886f9fb77f46b.js.map   5.24 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-2d64b347d0c79dfe0b91.js js/application-2d64b347d0c79dfe0b91.js.map
+Entrypoint index = js/index-ad85d9c886f9fb77f46b.js js/index-ad85d9c886f9fb77f46b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 536 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.38 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 6 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 7855.4ms | Allocations: 6699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7924.6ms | Allocations: 23494)
+Completed 200 OK in 7969ms (Views: 7950.2ms | ActiveRecord: 0.0ms | Allocations: 26366)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:45:44 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 4dd0afb5a095163f818d
+Version: webpack 4.46.0
+Time: 1505ms
+Built at: 2022/11/30 15:45:48
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2d64b347d0c79dfe0b91.js    772 KiB  application  [emitted] [immutable]  application
+js/application-2d64b347d0c79dfe0b91.js.map    849 KiB  application  [emitted] [dev]        application
+          js/index-19b59236f7058f7ed08a.js   5.04 KiB        index  [emitted] [immutable]  index
+      js/index-19b59236f7058f7ed08a.js.map   5.02 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-2d64b347d0c79dfe0b91.js js/application-2d64b347d0c79dfe0b91.js.map
+Entrypoint index = js/index-19b59236f7058f7ed08a.js js/index-19b59236f7058f7ed08a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 536 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.18 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 6 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 4480.8ms | Allocations: 6100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4496.7ms | Allocations: 9865)
+Completed 200 OK in 4505ms (Views: 4502.3ms | ActiveRecord: 0.0ms | Allocations: 11061)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:52:57 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+  Rendered connect/index.html.erb within layouts/application (Duration: 114.9ms | Allocations: 15051)
+  Rendered layout layouts/application.html.erb (Duration: 117.3ms | Allocations: 15131)
+Completed 500 Internal Server Error in 131ms (Allocations: 16297)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    115: </table>
+    116: <div id="stage"></div>
+    117: 
+    118: <%= javascript_include_tag 'application' %>
+    119: <p id="notice"><%= notice %></p>
+    120: <h1>Products</h1>
+    121: <% @data = [['07/01', 10],['07/02', 20],['07/03', 30]] %>
+  
+app/views/connect/index.html.erb:118
+Started GET "/" for ::1 at 2022-11-30 15:53:37 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 7093)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 10930)
+Completed 200 OK in 32ms (Views: 29.9ms | Allocations: 12230)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:53:45 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4872)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 8618)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 9812)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:57:07 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2022-11-30 15:57:13 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: a1596a2019c676c80254
+Version: webpack 4.46.0
+Time: 4096ms
+Built at: 2022/11/30 15:57:13
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bf31b925219c5a2fdf19.js   1.86 MiB  application  [emitted] [immutable]  application
+js/application-bf31b925219c5a2fdf19.js.map   1.65 MiB  application  [emitted] [dev]        application
+          js/index-19b59236f7058f7ed08a.js   5.04 KiB        index  [emitted] [immutable]  index
+      js/index-19b59236f7058f7ed08a.js.map   5.02 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-bf31b925219c5a2fdf19.js js/application-bf31b925219c5a2fdf19.js.map
+Entrypoint index = js/index-19b59236f7058f7ed08a.js js/index-19b59236f7058f7ed08a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 565 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.18 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 322 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 6628.4ms | Allocations: 12928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6647.8ms | Allocations: 18704)
+Completed 200 OK in 6673ms (Views: 6654.5ms | ActiveRecord: 0.0ms | Allocations: 21577)
+
+
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: a1596a2019c676c80254
+Version: webpack 4.46.0
+Time: 1803ms
+Built at: 2022/11/30 15:57:17
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bf31b925219c5a2fdf19.js   1.86 MiB  application  [emitted] [immutable]  application
+js/application-bf31b925219c5a2fdf19.js.map   1.65 MiB  application  [emitted] [dev]        application
+          js/index-19b59236f7058f7ed08a.js   5.04 KiB        index  [emitted] [immutable]  index
+      js/index-19b59236f7058f7ed08a.js.map   5.02 KiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-bf31b925219c5a2fdf19.js js/application-bf31b925219c5a2fdf19.js.map
+Entrypoint index = js/index-19b59236f7058f7ed08a.js js/index-19b59236f7058f7ed08a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 565 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.18 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} [built]
+    + 322 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3482.8ms | Allocations: 13913)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3487.0ms | Allocations: 17481)
+Completed 200 OK in 3488ms (Views: 3487.7ms | ActiveRecord: 0.0ms | Allocations: 17936)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:57:39 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 4874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 8621)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 9821)
+
+
+Started GET "/" for ::1 at 2022-11-30 15:59:16 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 34.3ms | Allocations: 4887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.4ms | Allocations: 15525)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms | Allocations: 16720)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:00:24 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 54.6ms | Allocations: 4886)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 106.1ms | Allocations: 8651)
+Completed 200 OK in 171ms (Views: 139.8ms | ActiveRecord: 0.0ms | Allocations: 9851)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:00:33 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 4881)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 8626)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms | Allocations: 9817)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:00:39 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4862)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 8608)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 9805)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:01:19 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 25.8ms | Allocations: 4865)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 8610)
+Completed 200 OK in 51ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 9801)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:01:21 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 4333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7899)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 8353)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:10 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 30.7ms | Allocations: 4828)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 8574)
+Completed 200 OK in 54ms (Views: 48.2ms | Allocations: 9785)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:13 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 7901)
+Completed 200 OK in 25ms (Views: 10.4ms | Allocations: 8362)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:14 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:15 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:16 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 7897)
+Completed 200 OK in 24ms (Views: 22.8ms | Allocations: 8357)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:17 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7898)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 8357)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:18 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:19 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7897)
+Completed 200 OK in 15ms (Views: 14.4ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:20 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7899)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 8359)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:21 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:21 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:22 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7898)
+Completed 200 OK in 21ms (Views: 19.1ms | Allocations: 8358)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:23 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7898)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 8357)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:24 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7897)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:24 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:25 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7899)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 8359)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:26 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:27 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:28 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 7899)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 8359)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:28 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:29 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:30 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7898)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 8358)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:30 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 7898)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 8357)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:31 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:32 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:33 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 7899)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 8359)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:34 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7897)
+Completed 200 OK in 16ms (Views: 14.7ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:34 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 7897)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 8356)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:35 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 7899)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 8359)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:15:36 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:18:50 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 7897)
+Completed 200 OK in 34ms (Views: 30.2ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:18:54 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 7897)
+Completed 200 OK in 39ms (Views: 37.7ms | Allocations: 8357)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:18:57 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 7898)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 8357)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:18:58 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:18:59 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 7897)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:19:00 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 7898)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 8358)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:19:01 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7897)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:19:14 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 8356)
+
+
+Started GET "/?status=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:19:16 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"true", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 7900)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 8358)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:19:18 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7897)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 8356)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:28:45 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 6832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 10578)
+Completed 200 OK in 37ms (Views: 34.7ms | Allocations: 11789)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:28:49 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 6230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 9796)
+Completed 200 OK in 16ms (Views: 13.9ms | Allocations: 10256)
+
+
+Started GET "/?status=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:28:53 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 9795)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 10255)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:28:55 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 9795)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 10254)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:29:20 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 6228)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 9794)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 10253)
+
+
+Started GET "/" for ::1 at 2022-11-30 16:29:26 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 6228)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 9795)
+Completed 200 OK in 20ms (Views: 18.6ms | Allocations: 10257)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:29:29 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 9795)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 10254)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:29:49 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 6875)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 10620)
+Completed 200 OK in 33ms (Views: 30.0ms | Allocations: 11822)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:29:51 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 6231)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 9798)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 10259)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:34 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 6874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 10619)
+Completed 200 OK in 27ms (Views: 26.0ms | Allocations: 11821)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:36 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 6230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 9796)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 10258)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:37 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 9796)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 10256)
+
+
+Started GET "/?fan=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:39 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"true", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 9795)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 10254)
+
+
+Started GET "/?commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:40 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 6228)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 9794)
+Completed 200 OK in 22ms (Views: 21.2ms | Allocations: 10256)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:41 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 6230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 9796)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 10255)
+
+
+Started GET "/?fan=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:30:44 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"true", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 6229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 9795)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 10254)
+
+
+Started GET "/?fan=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:14 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"true", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 6204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 9774)
+Completed 200 OK in 25ms (Views: 23.8ms | Allocations: 10377)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:26 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 6239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 9805)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 10263)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:41 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 6240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 9807)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 10266)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 6239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 9805)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 10263)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 6239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 9805)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 10263)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 6240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 9807)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 10266)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9805)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 10263)
+
+
+Started GET "/?fan=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-11-30 16:31:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"fan"=>"false", "commit"=>"変更"}
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 6239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 9805)
+Completed 200 OK in 24ms (Views: 22.4ms | Allocations: 10264)
+
+
