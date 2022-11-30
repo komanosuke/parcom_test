@@ -12,7 +12,7 @@ class ConnectController < ApplicationController
         #https通信をできるようにする
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         #ローカル環境から実行したい場合はこの記述によりSSL証明書の発行をすっ飛ばす。
-    
+
         http.start do
             req = Net::HTTP::Post.new(uri.path)
             #POSTリクエストを作成
@@ -20,6 +20,7 @@ class ConnectController < ApplicationController
             #bodyのデータをセット
             http.request(req)
             #リクエストを投げる　返り値はレスポンス
+            @req = req
         end
     end
 
