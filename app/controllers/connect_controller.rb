@@ -4,7 +4,7 @@ class ConnectController < ApplicationController
     require 'json'
   
     def post_message
-        uri = URI.parse("http://54.64.49.214/sample")
+        uri = URI.parse("https://parcomsend.herokuapp.com/")
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = true
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
