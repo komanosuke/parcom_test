@@ -15,13 +15,13 @@ class ConnectController < ApplicationController
 
         message = "hogehoge"
         http.start do
-            req = Net::HTTP::Post.new(uri.path)
+            req = Net::HTTP::Post.new(uri)
             #POSTリクエストを作成
             req.set_form_data(body: message)
             #bodyのデータをセット
             http.request(req)
             #リクエストを投げる　返り値はレスポンス
-            @req = req
+            @req = uri
         end
     end
 
