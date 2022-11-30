@@ -10,7 +10,7 @@ class ConnectController < ApplicationController
         #Net::HTTPオブジェクトを作成
         http.use_ssl = true
         #https通信をできるようにする
-        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        #http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         #ローカル環境から実行したい場合はこの記述によりSSL証明書の発行をすっ飛ばす。
 
         message = "hogehoge"
