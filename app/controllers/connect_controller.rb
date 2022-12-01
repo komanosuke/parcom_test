@@ -2,6 +2,7 @@ class ConnectController < ApplicationController
     require 'net/https'
     require 'uri'
     require 'json'
+    require 'rest-client'
   
     def post_message
         # uri = URI.parse("https://parcomsend.herokuapp.com/index")
@@ -24,11 +25,12 @@ class ConnectController < ApplicationController
         #     @req = req
         # end
 
-        url = 'https://parcomsend.herokuapp.com/index'
+        url = 'https://parcomsend.herokuapp.com'
         #body = params.to_json
         body = 'JSONの送信が成功しました。'
         content_type = :json
-        RestClient.post(url, body, content_type: content_type)
+        #RestClient.post(url, body, content_type: content_type)
+        RestClient.get 'https://parcomsend.herokuapp.com', {params: {json_data: "JSONの送信が成功しました。"}}
     end
 
     def index

@@ -1589,3 +1589,262 @@ Processing by ConnectController#post_message as HTML
 Completed 200 OK in 815ms (Views: 26.2ms | Allocations: 5260)
 
 
+Started GET "/" for ::1 at 2022-12-01 10:34:30 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 27.4ms | Allocations: 7934)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 13751)
+Completed 200 OK in 73ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 16638)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:34:35 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 854ms (ActiveRecord: 0.0ms | Allocations: 5393)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:31:in `post_message'
+Started GET "/" for ::1 at 2022-12-01 10:39:21 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 6765)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10424)
+Completed 200 OK in 25ms (Views: 23.7ms | Allocations: 11119)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:39:23 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 809ms (Allocations: 3159)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:43:03 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 821ms (Allocations: 2414)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:43:12 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 762ms (Allocations: 2444)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:43:17 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 23.1ms | Allocations: 6699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 10270)
+Completed 200 OK in 39ms (Views: 34.5ms | Allocations: 10871)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:43:19 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 787ms (Allocations: 3106)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:44:32 +0900
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 7934)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 13751)
+Completed 200 OK in 67ms (Views: 41.9ms | ActiveRecord: 0.0ms | Allocations: 16749)
+
+
+Started GET "/connect/" for ::1 at 2022-12-01 10:44:35 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 6330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 9896)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10355)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:44:37 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 857ms (ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:46:47 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 6766)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 10426)
+Completed 200 OK in 25ms (Views: 24.4ms | Allocations: 11122)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:46:49 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 1609)
+
+
+  
+NoMethodError (undefined method `delete_if' for "JSONの送信が成功しました。":String
+Did you mean?  delete
+               delete!):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:48:23 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 802ms (Allocations: 2553)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:51:26 +0900
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 42.2ms | Allocations: 7936)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.8ms | Allocations: 13754)
+Completed 200 OK in 95ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 16636)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:51:28 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 796ms (ActiveRecord: 0.0ms | Allocations: 4070)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:51:37 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 6544)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 10207)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 10775)
+
+
+Started GET "/connect/" for ::1 at 2022-12-01 10:52:43 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 6660)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 10230)
+Completed 200 OK in 15ms (Views: 14.4ms | Allocations: 10842)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:52:44 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 829ms (Allocations: 3248)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:53:45 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 3.6ms | Allocations: 612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 4251)
+Completed 200 OK in 817ms (Views: 23.7ms | Allocations: 7115)
+
+
+Started GET "/connect/" for ::1 at 2022-12-01 10:54:43 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 6658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10227)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 10838)
+
+
+Started GET "/connect/" for ::1 at 2022-12-01 10:54:45 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 6325)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 9893)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 10354)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:54:46 +0900
+Processing by ConnectController#post_message as HTML
+Completed 500 Internal Server Error in 832ms (Allocations: 3203)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/connect_controller.rb:33:in `post_message'
+Started GET "/connect/" for ::1 at 2022-12-01 10:57:18 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 6658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 10228)
+Completed 200 OK in 27ms (Views: 25.5ms | Allocations: 10836)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-12-01 10:57:19 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 0.5ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3804)
+Completed 200 OK in 833ms (Views: 10.0ms | Allocations: 7079)
+
+
