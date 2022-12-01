@@ -26,7 +26,7 @@ class ConnectController < ApplicationController
 
         url = 'https://parcomsend.herokuapp.com/index'
         #body = params.to_json
-        body = {"country" : "Japan", "lang" : "Japanese"}
+        body = 'JSONの送信が成功しました。'
         content_type = :json
         RestClient.post(url, body, content_type: content_type)
     end
