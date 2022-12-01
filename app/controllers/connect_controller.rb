@@ -4,25 +4,31 @@ class ConnectController < ApplicationController
     require 'json'
   
     def post_message
-        uri = URI.parse("https://parcomsend.herokuapp.com/index")
-        #URI指定
-        http = Net::HTTP.new(uri.host, uri.port)
-        #Net::HTTPオブジェクトを作成
-        http.use_ssl = true
-        #https通信をできるようにする
-        #http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        #ローカル環境から実行したい場合はこの記述によりSSL証明書の発行をすっ飛ばす。
+        # uri = URI.parse("https://parcomsend.herokuapp.com/index")
+        # #URI指定
+        # http = Net::HTTP.new(uri.host, uri.port)
+        # #Net::HTTPオブジェクトを作成
+        # http.use_ssl = true
+        # #https通信をできるようにする
+        # http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        # #ローカル環境から実行したい場合はこの記述によりSSL証明書の発行をすっ飛ばす。
 
-        message = "hogehoge"
-        http.start do
-            req = Net::HTTP::Post.new(uri)
-            #POSTリクエストを作成
-            req.set_form_data(body: message)
-            #bodyのデータをセット
-            http.request(req)
-            #リクエストを投げる　返り値はレスポンス
-            @req = uri
-        end
+        # message = "hogehoge"
+        # http.start do
+        #     req = Net::HTTP::Post.new(uri.path)
+        #     #POSTリクエストを作成
+        #     req.set_form_data({"q" => "ruby", "lang" => "en"}, ';')
+        #     #bodyのデータをセット
+        #     http.request(req)
+        #     #リクエストを投げる　返り値はレスポンス
+        #     @req = req
+        # end
+
+        url = 'https://parcomsend.herokuapp.com/index'
+        #body = params.to_json
+        body = {"country" : "Japan", "lang" : "Japanese"}
+        content_type = :json
+        RestClient.post(url, body, content_type: content_type)
     end
 
     def index
@@ -47,4 +53,5 @@ class ConnectController < ApplicationController
         @judge = params[:status]
         @fan = params
     end
+
 end

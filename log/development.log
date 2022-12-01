@@ -1494,3 +1494,98 @@ Processing by ConnectController#post_message as HTML
 Completed 200 OK in 794ms (Views: 11.8ms | Allocations: 5416)
 
 
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:52:37 +0900
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#post_message as HTML
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:52:37 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 4.7ms | Allocations: 762)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 6726)
+Completed 200 OK in 881ms (Views: 60.2ms | ActiveRecord: 0.0ms | Allocations: 12388)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 0.8ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 3805)
+Completed 200 OK in 796ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 15121)
+
+
+Started GET "/" for ::1 at 2022-11-30 18:52:40 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 26.2ms | Allocations: 8018)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 11587)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms | Allocations: 12191)
+
+
+Started GET "/" for ::1 at 2022-11-30 18:54:37 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 6660)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 10231)
+Completed 200 OK in 36ms (Views: 35.2ms | Allocations: 10835)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:54:39 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3805)
+Completed 200 OK in 803ms (Views: 11.5ms | Allocations: 5536)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:54:51 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 1.2ms | Allocations: 502)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4178)
+Completed 200 OK in 749ms (Views: 11.1ms | Allocations: 5293)
+
+
+Started GET "/" for ::1 at 2022-11-30 18:54:53 +0900
+Processing by ConnectController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 6327)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 10525)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 10992)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:54:54 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 0.3ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3795)
+Completed 200 OK in 766ms (Views: 6.3ms | Allocations: 4941)
+
+
+Started GET "/connect/post_message" for ::1 at 2022-11-30 18:55:21 +0900
+Processing by ConnectController#post_message as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/post_message.html.erb within layouts/application
+  Rendered connect/post_message.html.erb within layouts/application (Duration: 0.9ms | Allocations: 506)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 4144)
+Completed 200 OK in 815ms (Views: 26.2ms | Allocations: 5260)
+
+

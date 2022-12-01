@@ -66,3 +66,5 @@ gem 'net-imap'
 gem 'net-pop'
 
 gem 'chartkick'
+
+gem 'rest-client'
