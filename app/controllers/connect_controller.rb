@@ -35,13 +35,13 @@ class ConnectController < ApplicationController
             sent_data = params[:json_data]
             Textdatum.create(string: sent_data)
             
-
             #data作り直し
             # @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
             
         end
-
-        @json_data = Textdatum.last.string
+        if Textdatum.exist?
+            @json_data = Textdatum.last.string
+        end
         #.split(",")
         logger.debug("送られてきたデータは、" + @json_data)
         logger.debug(@json_data.split(","))
