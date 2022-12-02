@@ -3,7 +3,7 @@ class ConnectController < ApplicationController
     require 'uri'
     require 'json'
     require 'rest-client'
-    
+    skip_before_action :verify_authenticity_token
     
 
     def index
@@ -61,6 +61,9 @@ class ConnectController < ApplicationController
         @array = @array.to_s
         logger.debug(@array)
         logger.debug(@array.class)
+
+        @judge = params[:os_data]
+        logger.debug(@judge)
 
         #送られてきたデータを保存するところまではOK(保存必要？)
         #取り出して、出力も可能

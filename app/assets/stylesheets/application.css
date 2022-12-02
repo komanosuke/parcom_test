@@ -22,6 +22,10 @@
     margin: 5px auto 20px;
 }
 
+.words_table, #hidden {
+    visibility: hidden;
+}
+
 .buttons {
     margin: 5px;
     width: 200px;

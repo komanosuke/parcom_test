@@ -36286,3 +36286,1787 @@ Processing by ConnectController#delete as HTML
 Completed 200 OK in 25ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 4833)
 
 
+Started GET "/" for ::1 at 2022-12-02 14:06:41 +0900
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 97beeed0cd5436247de1
+Version: webpack 4.46.0
+Time: 2708ms
+Built at: 2022/12/02 14:06:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-40c19ff20edc26d35993.js    741 KiB        index  [emitted] [immutable]  index
+      js/index-40c19ff20edc26d35993.js.map    777 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-40c19ff20edc26d35993.js js/index-40c19ff20edc26d35993.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 3.45 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5421.3ms | Allocations: 9560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5442.5ms | Allocations: 15432)
+Completed 200 OK in 5497ms (Views: 5450.5ms | ActiveRecord: 1.8ms | Allocations: 19987)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:07:10 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 7263)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 11060)
+Completed 200 OK in 27ms (Views: 17.3ms | ActiveRecord: 0.7ms | Allocations: 13122)
+
+
+Started POST "/" for ::1 at 2022-12-02 14:07:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.1ms | Allocations: 137)
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 2487)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:09:50 +0900
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 8287)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 21432)
+Completed 200 OK in 100ms (Views: 72.5ms | ActiveRecord: 0.8ms | Allocations: 25986)
+
+
+Started GET "/?status=false&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-12-02 14:10:00 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"変更"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6520)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 10098)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.3ms | Allocations: 11416)
+
+
+Started GET "/?status=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-12-02 14:10:07 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"true", "commit"=>"変更"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 6512)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 10090)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 11406)
+
+
+Started GET "/?status=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-12-02 14:28:33 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"true", "commit"=>"変更"}
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 5060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 8816)
+Completed 200 OK in 99ms (Views: 51.4ms | ActiveRecord: 3.1ms | Allocations: 11494)
+
+
+Started GET "/?status=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-12-02 14:28:44 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"true", "commit"=>"変更"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 4610)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 8186)
+Completed 200 OK in 39ms (Views: 32.5ms | ActiveRecord: 0.2ms | Allocations: 9482)
+
+
+Started GET "/?status=true&commit=%E5%A4%89%E6%9B%B4" for ::1 at 2022-12-02 14:43:20 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"true", "commit"=>"変更"}
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:43:25 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: b8ee279077235bbcde53
+Version: webpack 4.46.0
+Time: 2482ms
+Built at: 2022/12/02 14:43:26
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-a42f0324278febda188d.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-a42f0324278febda188d.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-a42f0324278febda188d.js js/index-a42f0324278febda188d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.15 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5392.2ms | Allocations: 10336)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5412.9ms | Allocations: 14092)
+Completed 200 OK in 5537ms (Views: 5445.7ms | ActiveRecord: 10.0ms | Allocations: 16778)
+
+
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: b8ee279077235bbcde53
+Version: webpack 4.46.0
+Time: 1917ms
+Built at: 2022/12/02 14:43:28
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-a42f0324278febda188d.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-a42f0324278febda188d.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-a42f0324278febda188d.js js/index-a42f0324278febda188d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.15 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3275.7ms | Allocations: 10302)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3287.3ms | Allocations: 13878)
+Completed 200 OK in 3300ms (Views: 3288.4ms | ActiveRecord: 2.5ms | Allocations: 15801)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:45:36 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 5e42beec34e9a30f66e9
+Version: webpack 4.46.0
+Time: 2500ms
+Built at: 2022/12/02 14:45:41
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-0c658bfbec69bee5a776.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-0c658bfbec69bee5a776.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-0c658bfbec69bee5a776.js js/index-0c658bfbec69bee5a776.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.21 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5369.5ms | Allocations: 3934)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5381.4ms | Allocations: 7511)
+Completed 200 OK in 5397ms (Views: 5383.0ms | ActiveRecord: 0.2ms | Allocations: 8807)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:46:09 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: a1269c0f70a3eda4d06b
+Version: webpack 4.46.0
+Time: 1969ms
+Built at: 2022/12/02 14:46:12
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-0115b8a83d0fa2ec6689.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-0115b8a83d0fa2ec6689.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-0115b8a83d0fa2ec6689.js js/index-0115b8a83d0fa2ec6689.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.21 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3184.8ms | Allocations: 3931)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3191.4ms | Allocations: 7507)
+Completed 200 OK in 3197ms (Views: 3192.0ms | ActiveRecord: 0.2ms | Allocations: 8805)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:46:42 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 20609fc97c60cd6a1a4f
+Version: webpack 4.46.0
+Time: 2501ms
+Built at: 2022/12/02 14:46:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-82e6a6159f32e4e2c195.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-82e6a6159f32e4e2c195.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-82e6a6159f32e4e2c195.js js/index-82e6a6159f32e4e2c195.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.21 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5068.9ms | Allocations: 3937)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5079.9ms | Allocations: 7514)
+Completed 200 OK in 5085ms (Views: 5080.4ms | ActiveRecord: 0.4ms | Allocations: 8828)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:47:35 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 5f997c9aedf93207afe7
+Version: webpack 4.46.0
+Time: 1950ms
+Built at: 2022/12/02 14:47:38
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-ceeaabeeed2a90137b15.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-ceeaabeeed2a90137b15.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-ceeaabeeed2a90137b15.js js/index-ceeaabeeed2a90137b15.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.22 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3111.0ms | Allocations: 3928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3117.9ms | Allocations: 7504)
+Completed 200 OK in 3128ms (Views: 3118.6ms | ActiveRecord: 0.4ms | Allocations: 8799)
+
+
+Started GET "/connect/index?json_data=FAN%2CON" for ::1 at 2022-12-02 14:47:42 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"FAN,ON"}
+FAN,ON
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (3.2ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "FAN,ON"], ["created_at", "2022-12-02 05:47:42.426449"], ["updated_at", "2022-12-02 05:47:42.426449"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,ON
+["FAN", "ON"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 6269)
+Completed 200 OK in 185ms (Views: 13.2ms | ActiveRecord: 10.4ms | Allocations: 13000)
+
+
+Started GET "/connect/index?json_data=FAN%2COFF" for ::1 at 2022-12-02 14:47:46 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"FAN,OFF"}
+FAN,OFF
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "FAN,OFF"], ["created_at", "2022-12-02 05:47:46.426488"], ["updated_at", "2022-12-02 05:47:46.426488"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6268)
+Completed 200 OK in 24ms (Views: 10.0ms | ActiveRecord: 2.0ms | Allocations: 10275)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:50:05 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 45c7d885c2192b5d2dce
+Version: webpack 4.46.0
+Time: 1977ms
+Built at: 2022/12/02 14:50:09
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-e44e80c3cf2e48f9a17c.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-e44e80c3cf2e48f9a17c.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-e44e80c3cf2e48f9a17c.js js/index-e44e80c3cf2e48f9a17c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.22 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 3382.6ms | Allocations: 4342)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3402.0ms | Allocations: 7921)
+Completed 200 OK in 3433ms (Views: 3403.5ms | ActiveRecord: 2.3ms | Allocations: 13367)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:50:10 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 6270)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 0.5ms | Allocations: 8273)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:50:13 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 6270)
+Completed 200 OK in 62ms (Views: 48.7ms | ActiveRecord: 0.3ms | Allocations: 8272)
+
+
+Started GET "/?status=false&commit=%E8%A8%AD%E5%AE%9A%E5%8F%8D%E6%98%A0" for ::1 at 2022-12-02 14:53:55 +0900
+Processing by ConnectController#index as HTML
+  Parameters: {"status"=>"false", "commit"=>"設定反映"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 39.7ms | Allocations: 2692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 153.7ms | Allocations: 6268)
+Completed 200 OK in 212ms (Views: 158.4ms | ActiveRecord: 0.4ms | Allocations: 8257)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:53:59 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、FAN,OFF
+["FAN", "OFF"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 6270)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.3ms | Allocations: 8279)
+
+
+Started GET "/connect/delete" for ::1 at 2022-12-02 14:55:36 +0900
+Processing by ConnectController#delete as HTML
+  [1m[36mTextdatum Load (0.9ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata"[0m
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTextdatum Destroy (3.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 558]]
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 559]]
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:82:in `delete'
+  Rendering layout layouts/application.html.erb
+  Rendering connect/delete.html.erb within layouts/application
+  Rendered connect/delete.html.erb within layouts/application (Duration: 5.8ms | Allocations: 226)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 3848)
+Completed 200 OK in 140ms (Views: 31.3ms | ActiveRecord: 6.9ms | Allocations: 15766)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:55:37 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 3326)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 6902)
+Completed 200 OK in 31ms (Views: 23.0ms | ActiveRecord: 0.4ms | Allocations: 8208)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:55:57 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 2692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 6268)
+Completed 200 OK in 28ms (Views: 23.4ms | ActiveRecord: 0.1ms | Allocations: 7568)
+
+
+Started GET "/connect/index?os_data=undefined" for ::1 at 2022-12-02 14:56:00 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"undefined"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2693)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 6269)
+Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 0.2ms | Allocations: 7580)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:56:11 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 6270)
+Completed 200 OK in 22ms (Views: 17.0ms | ActiveRecord: 0.2ms | Allocations: 7581)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:56:37 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6683)
+Completed 200 OK in 30ms (Views: 15.9ms | ActiveRecord: 0.8ms | Allocations: 9546)
+
+
+Started GET "/connect/index?os_data=undefined" for ::1 at 2022-12-02 14:56:39 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"undefined"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2693)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 6269)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.1ms | Allocations: 7600)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:56:44 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6270)
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 7596)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 14:56:51 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6270)
+Completed 200 OK in 20ms (Views: 13.8ms | ActiveRecord: 0.2ms | Allocations: 7596)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 14:57:08 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 6270)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.1ms | Allocations: 7596)
+
+
+Started GET "/" for ::1 at 2022-12-02 14:57:21 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6683)
+Completed 200 OK in 30ms (Views: 19.0ms | ActiveRecord: 1.0ms | Allocations: 9539)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 14:57:22 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 6270)
+Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 0.2ms | Allocations: 7595)
+
+
+Started GET "/" for ::1 at 2022-12-02 15:00:35 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 3042)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.3ms | Allocations: 12574)
+Completed 200 OK in 76ms (Views: 71.4ms | ActiveRecord: 0.2ms | Allocations: 14644)
+
+
+Started GET "/" for ::1 at 2022-12-02 15:01:09 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6704)
+Completed 200 OK in 20ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 8761)
+
+
+Started GET "/" for ::1 at 2022-12-02 15:01:17 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 2949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 6704)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.2ms | Allocations: 8760)
+
+
+Started GET "/" for ::1 at 2022-12-02 15:33:27 +0900
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 3606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 12743)
+Completed 200 OK in 96ms (Views: 64.3ms | ActiveRecord: 1.7ms | Allocations: 17315)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 15:33:39 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,OFF
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2619)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6197)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.2ms | Allocations: 7550)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 15:33:51 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6187)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 7511)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 15:33:56 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 6189)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 7539)
+
+
+Started GET "/" for ::1 at 2022-12-02 15:45:38 +0900
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 897a0ab553c062d1c849
+Version: webpack 4.46.0
+Time: 2501ms
+Built at: 2022/12/02 15:45:43
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-c83644d1ba422d9f6713.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-c83644d1ba422d9f6713.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-c83644d1ba422d9f6713.js js/index-c83644d1ba422d9f6713.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.19 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5003.4ms | Allocations: 4875)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5017.5ms | Allocations: 10708)
+Completed 200 OK in 5048ms (Views: 5021.5ms | ActiveRecord: 0.9ms | Allocations: 15250)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 15:45:50 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,OFF
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2619)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6197)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 7535)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 15:46:04 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6190)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 7519)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 15:46:04 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6187)
+Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+
+Started GET "/" for ::1 at 2022-12-02 16:07:11 +0900
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 3606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 9442)
+Completed 200 OK in 85ms (Views: 53.7ms | ActiveRecord: 1.1ms | Allocations: 13984)
+
+
+Started GET "/" for ::1 at 2022-12-02 16:07:21 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2617)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6195)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 7519)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:43 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6190)
+Completed 200 OK in 15ms (Views: 10.7ms | ActiveRecord: 0.4ms | Allocations: 7526)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:48 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6187)
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:51 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6190)
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 7519)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:52 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6187)
+Completed 200 OK in 14ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:52 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6187)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:55 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 6189)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 7517)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:07:58 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6187)
+Completed 200 OK in 18ms (Views: 13.4ms | ActiveRecord: 0.3ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 16:07:59 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,OFF
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 6189)
+Completed 200 OK in 37ms (Views: 31.4ms | ActiveRecord: 0.4ms | Allocations: 7498)
+
+
+Started GET "/connect/index?os_data=FAN%2COFF" for ::1 at 2022-12-02 16:08:00 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,OFF"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,OFF
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6187)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 7503)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:08:01 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6187)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.3ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:08:03 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6187)
+Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+
+Started GET "/connect/index?os_data=FAN%2CON" for ::1 at 2022-12-02 16:08:05 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"os_data"=>"FAN,ON"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+FAN,ON
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6187)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 7496)
+
+

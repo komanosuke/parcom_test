@@ -51,8 +51,35 @@ function graph(){
 
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const fanButton = document.getElementById("fanButton");
+    fanButton.addEventListener("click", () => { postSettingData() });
+});
+//parcomsendの方にデータをpost
+function postSettingData(){
+    let fan_data = document.getElementsByName('FAN');
+    let checkValue;
+    for (let i = 0; i < fan_data.length; i++){
+        if (fan_data.item(i).checked){
+            checkValue = fan_data.item(i).value;
+        }
+    }
 
+    console.log("選択されているのは" + checkValue + "です");
+    data_to_send = String(checkValue);
+    
 
+	$.ajax({
+		//url: 'https://parcomsend.herokuapp.com/send_data/index',
+        url: 'connect/index',
+		type: 'GET',
+		dataType: 'text',
+		async: true,
+		data: {
+			os_data: data_to_send
+		},
+	});
+}
 
 
 
@@ -95,8 +122,7 @@ function postData(){
     console.log(data_to_send);
 
 	$.ajax({
-		//url: 'https://parcomsend.herokuapp.com/send_data/index',
-        url: 'connect/index',
+		url: 'https://parcomsend.herokuapp.com/send_data/index',
 		type: 'GET',
 		dataType: 'text',
 		async: true,
@@ -105,7 +131,7 @@ function postData(){
 		},
 	});
 }
-//setInterval(postData, 1000);
+setInterval(postData, 1000);
 //$('#line_chart').html("<div id="chart-1" style="height: 300px; width: 100%; text-align: center; color: #999; line-height: 300px; font-size: 14px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;">Loading...</div>
 
 
@@ -123,5 +149,5 @@ function submit(){
     const submitButton = document.getElementById("submitButton");
     submitButton.click();
 }
-//setInterval(submit, 1000);
-//setInterval(graph, 1000);
+setInterval(submit, 1000);
+setInterval(graph, 1000);
