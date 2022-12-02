@@ -40,7 +40,7 @@ class ConnectController < ApplicationController
             
         end
         @json_data = "not exist!"
-        if Textdatum.exist?
+        if Textdatum.exists?
             @json_data = Textdatum.last.string
         end
         #.split(",")

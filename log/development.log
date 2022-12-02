@@ -33098,3 +33098,1271 @@ Processing by ConnectController#delete as HTML
 Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.1ms | Allocations: 4829)
 
 
+Started GET "/" for ::1 at 2022-12-02 11:29:54 +0900
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 4588)
+
+
+  
+NoMethodError (undefined method `exist?' for #<Class:0x00007f7fde23ba80>
+Did you mean?  exists?):
+  
+app/controllers/connect_controller.rb:43:in `index'
+Started GET "/" for ::1 at 2022-12-02 11:30:08 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 8180)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 14053)
+Completed 200 OK in 90ms (Views: 57.9ms | ActiveRecord: 24.7ms | Allocations: 17857)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:10 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.7ms | Allocations: 136)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 2484)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:11 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1424)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:12 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:13 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1405)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:13 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:14 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started GET "/connect/index?json_data=25%2C27%2C23%2C2%2C27" for ::1 at 2022-12-02 11:30:14 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"25,27,23,2,27"}
+25,27,23,2,27
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (8.7ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "25,27,23,2,27"], ["created_at", "2022-12-02 02:30:14.333669"], ["updated_at", "2022-12-02 02:30:14.333669"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、25,27,23,2,27
+["25", "27", "23", "2", "27"]
+Array
+Viewに表示するデータは、25
+Viewに表示するデータは、27
+Viewに表示するデータは、23
+Viewに表示するデータは、2
+Viewに表示するデータは、27
+Integer
+[25, 27, 23, 2, 27]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 6517)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 12455)
+Completed 200 OK in 37ms (Views: 13.8ms | ActiveRecord: 10.6ms | Allocations: 19231)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:15 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、25,27,23,2,27
+["25", "27", "23", "2", "27"]
+Array
+Viewに表示するデータは、25
+Viewに表示するデータは、27
+Viewに表示するデータは、23
+Viewに表示するデータは、2
+Viewに表示するデータは、27
+Integer
+[25, 27, 23, 2, 27]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 2109)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:16 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、25,27,23,2,27
+["25", "27", "23", "2", "27"]
+Array
+Viewに表示するデータは、25
+Viewに表示するデータは、27
+Viewに表示するデータは、23
+Viewに表示するデータは、2
+Viewに表示するデータは、27
+Integer
+[25, 27, 23, 2, 27]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 0.5ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=14%2C11%2C29%2C7%2C24" for ::1 at 2022-12-02 11:30:17 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"14,11,29,7,24"}
+14,11,29,7,24
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.5ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "14,11,29,7,24"], ["created_at", "2022-12-02 02:30:17.092736"], ["updated_at", "2022-12-02 02:30:17.092736"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,11,29,7,24
+["14", "11", "29", "7", "24"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、11
+Viewに表示するデータは、29
+Viewに表示するデータは、7
+Viewに表示するデータは、24
+Integer
+[14, 11, 29, 7, 24]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10126)
+Completed 200 OK in 31ms (Views: 17.3ms | ActiveRecord: 2.0ms | Allocations: 14147)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:17 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.4ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,11,29,7,24
+["14", "11", "29", "7", "24"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、11
+Viewに表示するデータは、29
+Viewに表示するデータは、7
+Viewに表示するデータは、24
+Integer
+[14, 11, 29, 7, 24]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 13ms (Views: 2.4ms | ActiveRecord: 0.9ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:18 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,11,29,7,24
+["14", "11", "29", "7", "24"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、11
+Viewに表示するデータは、29
+Viewに表示するデータは、7
+Viewに表示するデータは、24
+Integer
+[14, 11, 29, 7, 24]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=14%2C9%2C0%2C7%2C3" for ::1 at 2022-12-02 11:30:18 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"14,9,0,7,3"}
+14,9,0,7,3
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.8ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "14,9,0,7,3"], ["created_at", "2022-12-02 02:30:18.609987"], ["updated_at", "2022-12-02 02:30:18.609987"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,9,0,7,3
+["14", "9", "0", "7", "3"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、9
+Viewに表示するデータは、0
+Viewに表示するデータは、7
+Viewに表示するデータは、3
+Integer
+[14, 9, 0, 7, 3]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 10126)
+Completed 200 OK in 41ms (Views: 28.1ms | ActiveRecord: 2.1ms | Allocations: 14144)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:19 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,9,0,7,3
+["14", "9", "0", "7", "3"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、9
+Viewに表示するデータは、0
+Viewに表示するデータは、7
+Viewに表示するデータは、3
+Integer
+[14, 9, 0, 7, 3]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 2115)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:20 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、14,9,0,7,3
+["14", "9", "0", "7", "3"]
+Array
+Viewに表示するデータは、14
+Viewに表示するデータは、9
+Viewに表示するデータは、0
+Viewに表示するデータは、7
+Viewに表示するデータは、3
+Integer
+[14, 9, 0, 7, 3]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 0.6ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=8%2C10%2C1%2C2%2C14" for ::1 at 2022-12-02 11:30:20 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"8,10,1,2,14"}
+8,10,1,2,14
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "8,10,1,2,14"], ["created_at", "2022-12-02 02:30:20.315331"], ["updated_at", "2022-12-02 02:30:20.315331"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、8,10,1,2,14
+["8", "10", "1", "2", "14"]
+Array
+Viewに表示するデータは、8
+Viewに表示するデータは、10
+Viewに表示するデータは、1
+Viewに表示するデータは、2
+Viewに表示するデータは、14
+Integer
+[8, 10, 1, 2, 14]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 12444)
+Completed 200 OK in 27ms (Views: 16.2ms | ActiveRecord: 1.7ms | Allocations: 16465)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、8,10,1,2,14
+["8", "10", "1", "2", "14"]
+Array
+Viewに表示するデータは、8
+Viewに表示するデータは、10
+Viewに表示するデータは、1
+Viewに表示するデータは、2
+Viewに表示するデータは、14
+Integer
+[8, 10, 1, 2, 14]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=1%2C2%2C29%2C10%2C28" for ::1 at 2022-12-02 11:30:21 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"1,2,29,10,28"}
+1,2,29,10,28
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.5ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "1,2,29,10,28"], ["created_at", "2022-12-02 02:30:21.435200"], ["updated_at", "2022-12-02 02:30:21.435200"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、1,2,29,10,28
+["1", "2", "29", "10", "28"]
+Array
+Viewに表示するデータは、1
+Viewに表示するデータは、2
+Viewに表示するデータは、29
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Integer
+[1, 2, 29, 10, 28]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 6508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 10124)
+Completed 200 OK in 26ms (Views: 14.6ms | ActiveRecord: 1.9ms | Allocations: 14142)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:22 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、1,2,29,10,28
+["1", "2", "29", "10", "28"]
+Array
+Viewに表示するデータは、1
+Viewに表示するデータは、2
+Viewに表示するデータは、29
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Integer
+[1, 2, 29, 10, 28]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=22%2C27%2C23%2C0%2C4" for ::1 at 2022-12-02 11:30:22 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"22,27,23,0,4"}
+22,27,23,0,4
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "22,27,23,0,4"], ["created_at", "2022-12-02 02:30:22.310416"], ["updated_at", "2022-12-02 02:30:22.310416"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,27,23,0,4
+["22", "27", "23", "0", "4"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、27
+Viewに表示するデータは、23
+Viewに表示するデータは、0
+Viewに表示するデータは、4
+Integer
+[22, 27, 23, 0, 4]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 10126)
+Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 1.8ms | Allocations: 14147)
+
+
+Started GET "/connect/index?json_data=3%2C15%2C29%2C8%2C2" for ::1 at 2022-12-02 11:30:22 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"3,15,29,8,2"}
+3,15,29,8,2
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "3,15,29,8,2"], ["created_at", "2022-12-02 02:30:22.948993"], ["updated_at", "2022-12-02 02:30:22.948993"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、3,15,29,8,2
+["3", "15", "29", "8", "2"]
+Array
+Viewに表示するデータは、3
+Viewに表示するデータは、15
+Viewに表示するデータは、29
+Viewに表示するデータは、8
+Viewに表示するデータは、2
+Integer
+[3, 15, 29, 8, 2]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 6531)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 12442)
+Completed 200 OK in 30ms (Views: 18.4ms | ActiveRecord: 1.8ms | Allocations: 16460)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:23 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、3,15,29,8,2
+["3", "15", "29", "8", "2"]
+Array
+Viewに表示するデータは、3
+Viewに表示するデータは、15
+Viewに表示するデータは、29
+Viewに表示するデータは、8
+Viewに表示するデータは、2
+Integer
+[3, 15, 29, 8, 2]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=22%2C21%2C14%2C3%2C8" for ::1 at 2022-12-02 11:30:24 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"22,21,14,3,8"}
+22,21,14,3,8
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "22,21,14,3,8"], ["created_at", "2022-12-02 02:30:24.101941"], ["updated_at", "2022-12-02 02:30:24.101941"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,21,14,3,8
+["22", "21", "14", "3", "8"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、21
+Viewに表示するデータは、14
+Viewに表示するデータは、3
+Viewに表示するデータは、8
+Integer
+[22, 21, 14, 3, 8]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 10126)
+Completed 200 OK in 37ms (Views: 25.3ms | ActiveRecord: 1.8ms | Allocations: 14144)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:24 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,21,14,3,8
+["22", "21", "14", "3", "8"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、21
+Viewに表示するデータは、14
+Viewに表示するデータは、3
+Viewに表示するデータは、8
+Integer
+[22, 21, 14, 3, 8]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 2115)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:25 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,21,14,3,8
+["22", "21", "14", "3", "8"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、21
+Viewに表示するデータは、14
+Viewに表示するデータは、3
+Viewに表示するデータは、8
+Integer
+[22, 21, 14, 3, 8]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:26 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,21,14,3,8
+["22", "21", "14", "3", "8"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、21
+Viewに表示するデータは、14
+Viewに表示するデータは、3
+Viewに表示するデータは、8
+Integer
+[22, 21, 14, 3, 8]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=26%2C14%2C15%2C9%2C20" for ::1 at 2022-12-02 11:30:26 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"26,14,15,9,20"}
+26,14,15,9,20
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.5ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "26,14,15,9,20"], ["created_at", "2022-12-02 02:30:26.309887"], ["updated_at", "2022-12-02 02:30:26.309887"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、26,14,15,9,20
+["26", "14", "15", "9", "20"]
+Array
+Viewに表示するデータは、26
+Viewに表示するデータは、14
+Viewに表示するデータは、15
+Viewに表示するデータは、9
+Viewに表示するデータは、20
+Integer
+[26, 14, 15, 9, 20]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 6508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 10124)
+Completed 200 OK in 26ms (Views: 15.2ms | ActiveRecord: 1.6ms | Allocations: 14142)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:27 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、26,14,15,9,20
+["26", "14", "15", "9", "20"]
+Array
+Viewに表示するデータは、26
+Viewに表示するデータは、14
+Viewに表示するデータは、15
+Viewに表示するデータは、9
+Viewに表示するデータは、20
+Integer
+[26, 14, 15, 9, 20]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:28 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、26,14,15,9,20
+["26", "14", "15", "9", "20"]
+Array
+Viewに表示するデータは、26
+Viewに表示するデータは、14
+Viewに表示するデータは、15
+Viewに表示するデータは、9
+Viewに表示するデータは、20
+Integer
+[26, 14, 15, 9, 20]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=4%2C2%2C28%2C19%2C7" for ::1 at 2022-12-02 11:30:28 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"4,2,28,19,7"}
+4,2,28,19,7
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "4,2,28,19,7"], ["created_at", "2022-12-02 02:30:28.574244"], ["updated_at", "2022-12-02 02:30:28.574244"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、4,2,28,19,7
+["4", "2", "28", "19", "7"]
+Array
+Viewに表示するデータは、4
+Viewに表示するデータは、2
+Viewに表示するデータは、28
+Viewに表示するデータは、19
+Viewに表示するデータは、7
+Integer
+[4, 2, 28, 19, 7]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 10124)
+Completed 200 OK in 26ms (Views: 15.2ms | ActiveRecord: 1.7ms | Allocations: 14142)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、4,2,28,19,7
+["4", "2", "28", "19", "7"]
+Array
+Viewに表示するデータは、4
+Viewに表示するデータは、2
+Viewに表示するデータは、28
+Viewに表示するデータは、19
+Viewに表示するデータは、7
+Integer
+[4, 2, 28, 19, 7]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=28%2C24%2C6%2C2%2C26" for ::1 at 2022-12-02 11:30:29 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"28,24,6,2,26"}
+28,24,6,2,26
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "28,24,6,2,26"], ["created_at", "2022-12-02 02:30:29.884700"], ["updated_at", "2022-12-02 02:30:29.884700"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、28,24,6,2,26
+["28", "24", "6", "2", "26"]
+Array
+Viewに表示するデータは、28
+Viewに表示するデータは、24
+Viewに表示するデータは、6
+Viewに表示するデータは、2
+Viewに表示するデータは、26
+Integer
+[28, 24, 6, 2, 26]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 6508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 12442)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 1.7ms | Allocations: 16460)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:30 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、28,24,6,2,26
+["28", "24", "6", "2", "26"]
+Array
+Viewに表示するデータは、28
+Viewに表示するデータは、24
+Viewに表示するデータは、6
+Viewに表示するデータは、2
+Viewに表示するデータは、26
+Integer
+[28, 24, 6, 2, 26]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:31 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、28,24,6,2,26
+["28", "24", "6", "2", "26"]
+Array
+Viewに表示するデータは、28
+Viewに表示するデータは、24
+Viewに表示するデータは、6
+Viewに表示するデータは、2
+Viewに表示するデータは、26
+Integer
+[28, 24, 6, 2, 26]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started GET "/connect/index?json_data=22%2C2%2C12%2C8%2C12" for ::1 at 2022-12-02 11:30:32 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"22,2,12,8,12"}
+22,2,12,8,12
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "22,2,12,8,12"], ["created_at", "2022-12-02 02:30:32.235884"], ["updated_at", "2022-12-02 02:30:32.235884"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,2,12,8,12
+["22", "2", "12", "8", "12"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、2
+Viewに表示するデータは、12
+Viewに表示するデータは、8
+Viewに表示するデータは、12
+Integer
+[22, 2, 12, 8, 12]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 6508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 10124)
+Completed 200 OK in 25ms (Views: 15.4ms | ActiveRecord: 1.6ms | Allocations: 14142)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:32 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,2,12,8,12
+["22", "2", "12", "8", "12"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、2
+Viewに表示するデータは、12
+Viewに表示するデータは、8
+Viewに表示するデータは、12
+Integer
+[22, 2, 12, 8, 12]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 2118)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:33 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、22,2,12,8,12
+["22", "2", "12", "8", "12"]
+Array
+Viewに表示するデータは、22
+Viewに表示するデータは、2
+Viewに表示するデータは、12
+Viewに表示するデータは、8
+Viewに表示するデータは、12
+Integer
+[22, 2, 12, 8, 12]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 2120)
+
+
+Started GET "/connect/index?json_data=10%2C28%2C4%2C22%2C1" for ::1 at 2022-12-02 11:30:33 +0900
+Processing by ConnectController#index as TEXT
+  Parameters: {"json_data"=>"10,28,4,22,1"}
+10,28,4,22,1
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Create (0.4ms)[0m  [1m[32mINSERT INTO "textdata" ("string", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["string", "10,28,4,22,1"], ["created_at", "2022-12-02 02:30:33.526332"], ["updated_at", "2022-12-02 02:30:33.526332"]]
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:36:in `index'
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、10,28,4,22,1
+["10", "28", "4", "22", "1"]
+Array
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Viewに表示するデータは、4
+Viewに表示するデータは、22
+Viewに表示するデータは、1
+Integer
+[10, 28, 4, 22, 1]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 6509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 10126)
+Completed 200 OK in 24ms (Views: 13.9ms | ActiveRecord: 1.6ms | Allocations: 14147)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:34 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、10,28,4,22,1
+["10", "28", "4", "22", "1"]
+Array
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Viewに表示するデータは、4
+Viewに表示するデータは、22
+Viewに表示するデータは、1
+Integer
+[10, 28, 4, 22, 1]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:35 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、10,28,4,22,1
+["10", "28", "4", "22", "1"]
+Array
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Viewに表示するデータは、4
+Viewに表示するデータは、22
+Viewに表示するデータは、1
+Integer
+[10, 28, 4, 22, 1]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、10,28,4,22,1
+["10", "28", "4", "22", "1"]
+Array
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Viewに表示するデータは、4
+Viewに表示するデータは、22
+Viewに表示するデータは、1
+Integer
+[10, 28, 4, 22, 1]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:30:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+  [1m[36mTextdatum Load (0.1ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata" ORDER BY "textdata"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:44:in `index'
+送られてきたデータは、10,28,4,22,1
+["10", "28", "4", "22", "1"]
+Array
+Viewに表示するデータは、10
+Viewに表示するデータは、28
+Viewに表示するデータは、4
+Viewに表示するデータは、22
+Viewに表示するデータは、1
+Integer
+[10, 28, 4, 22, 1]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started GET "/connect/delete" for ::1 at 2022-12-02 11:30:37 +0900
+Processing by ConnectController#delete as HTML
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata"[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (2.0ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 540]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 541]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (1.5ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 542]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.3ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 543]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 544]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.3ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 545]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 546]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 547]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.7ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 548]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 549]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.5ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 550]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.3ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 551]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTextdatum Destroy (0.3ms)[0m  [1m[31mDELETE FROM "textdata" WHERE "textdata"."id" = ?[0m  [["id", 552]]
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  Rendering layout layouts/application.html.erb
+  Rendering connect/delete.html.erb within layouts/application
+  Rendered connect/delete.html.erb within layouts/application (Duration: 1.1ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3949)
+Completed 200 OK in 91ms (Views: 9.7ms | ActiveRecord: 18.8ms | Allocations: 29826)
+
+
+Started GET "/connect/delete" for ::1 at 2022-12-02 11:30:39 +0900
+Processing by ConnectController#delete as HTML
+  [1m[36mTextdatum Load (0.2ms)[0m  [1m[34mSELECT "textdata".* FROM "textdata"[0m
+  ↳ app/controllers/connect_controller.rb:80:in `delete'
+  Rendering layout layouts/application.html.erb
+  Rendering connect/delete.html.erb within layouts/application
+  Rendered connect/delete.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3843)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 4830)
+
+
