@@ -130,7 +130,7 @@ function postData(){
 		},
 	});
 }
-setInterval(postData, 1000);
+
 //$('#line_chart').html("<div id="chart-1" style="height: 300px; width: 100%; text-align: center; color: #999; line-height: 300px; font-size: 14px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;">Loading...</div>
 
 
@@ -148,5 +148,7 @@ function submit(){
     const submitButton = document.getElementById("submitButton");
     submitButton.click();
 }
-setInterval(submit, 1000);
-setInterval(graph, 1000);
+
+// setInterval(postData, 1000);
+// setInterval(submit, 1000);
+// setInterval(graph, 1000);
