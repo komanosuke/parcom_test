@@ -1,9 +1,40 @@
 <h1>Chart</h1>
-<% @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]] %>
 <%= line_chart @data %>
+
 <%= javascript_pack_tag 'index' %>
 
-<%= link_to 'JSONをなげる', {controller: 'connect', action:'post_message'} %>
+<!-- Rubyからデータ(@data)を作成、毎秒更新したい //ここでindex指定　remote: true,-->
+<%= link_to 'データ削除', {controller: 'connect', action:'delete'} %>
+<button type="button" id="sendButton">JOSNをなげる（Ajax）</button>
+
+<p><%= @array %></p>
+
+<h1 id="title">Ajaxを使ってみよう</h1>
+<%= form_tag(url_for(:action => 'index'), :remote => true) do %>
+    <%= text_field_tag :title %>
+    <%= submit_tag "タイトルを変更する" ,{id: "submitButton"} %>
+<% end %>
+
+<table class="words_table">
+    <tr>
+        <th class="graph_title">教科</th>
+        <th class="label">国語</th>
+        <th class="label">算数</th>
+        <th class="label">社会</th>
+        <th class="label">理科</th>
+        <th class="label">英語</th>
+    </tr>
+    <tr class="words_copy">
+        <th class="graph_title">点数</th>
+        <td class="score"><input type="tel" class="numbers" value="" maxlength="3"></td>
+        <td class="score"><input type="tel" class="numbers" value="" maxlength="3"></td>
+        <td class="score"><input type="tel" class="numbers" value="" maxlength="3"></td>
+        <td class="score"><input type="tel" class="numbers" value="" maxlength="3"></td>
+        <td class="score"><input type="tel" class="numbers" value="" maxlength="3"></td>
+    </tr>
+</table>
+<button type="button" class="buttons" id="graphButton">グラフ描画</button>
+<div id="stage"></div>
 
 <h1 id="ttl">スマートベンチ管理画面（デモ）</h1>
 

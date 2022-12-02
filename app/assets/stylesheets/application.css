@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+
+ #stage {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 5px auto 20px;
+}
+
+.buttons {
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: teal;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    cursor: hand;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.buttons:hover {
+    background-color: rgb(30, 170, 170);
+}

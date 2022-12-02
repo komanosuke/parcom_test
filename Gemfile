@@ -68,3 +68,5 @@ gem 'net-pop'
 gem 'chartkick'
 
 gem 'rest-client'
+
+gem 'jquery-rails'

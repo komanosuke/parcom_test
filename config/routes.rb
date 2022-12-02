@@ -5,5 +5,10 @@ Rails.application.routes.draw do
   get 'connect', to: 'connect#index'
   get 'connect/index'
 
+  post '/', to: 'connect#index'
+  post 'connect', to: 'connect#index'
+  post 'connect/index'
+
   get 'connect/post_message'
+  get 'connect/delete'
 end

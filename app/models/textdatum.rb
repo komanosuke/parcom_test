@@ -1,0 +1,3 @@
+class Textdatum < ApplicationRecord
+    
+end
