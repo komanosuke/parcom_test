@@ -123,5 +123,5 @@ function submit(){
     const submitButton = document.getElementById("submitButton");
     submitButton.click();
 }
-setInterval(submit, 1000);
-setInterval(graph, 1000);
+//setInterval(submit, 1000);
+//setInterval(graph, 1000);
