@@ -77,15 +77,15 @@ function graph(){
 
 //データをどの方法で渡すか？DBなしで表示できるのか？
 //グラフのデータを乱数で作成（送信されてきたデータの擬似的なやつ。setIntervalで１秒おきに変わる）->これをRailsに渡すところまではOK、問題はDBなしでの表示
-function makeData(){
-    let data_to_send = [];
-    for (var i = 0; i < 5; i++){
-        var shuffledNumber = Math.floor(Math.random() * 30);
-        data_to_send.push(shuffledNumber);
-    }
-    data_to_send = String(data_to_send);
-    console.log(data_to_send);
-}
+// function makeData(){
+//     let data_to_send = [];
+//     for (var i = 0; i < 5; i++){
+//         var shuffledNumber = Math.floor(Math.random() * 30);
+//         data_to_send.push(shuffledNumber);
+//     }
+//     data_to_send = String(data_to_send);
+//     console.log(data_to_send);
+// }
 
 //-> ajaxで毎秒送る
 //sendするデータは配列から文字列に変えておく
@@ -128,7 +128,6 @@ function postData(){
 //    }, function() {
 //      // 通信が失敗したときの処理
 //    });
-
 
 //１秒おきにRailsDBから文字列を受信するためのリクエスト
 function submit(){

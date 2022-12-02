@@ -3,17 +3,17 @@ class ConnectController < ApplicationController
     require 'uri'
     require 'json'
     require 'rest-client'
-  
+    
     
 
     def index
         random = Random.new()
-        @array = []
-        for i in 1..5 do
-            @array.push(random.rand(1..30))
-        end
+        # @array = []
+        # for i in 1..5 do
+        #     @array.push(random.rand(1..30))
+        # end
 
-        @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
+        # @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
 
         @led = 'led'
         @color = 'color'
@@ -34,28 +34,32 @@ class ConnectController < ApplicationController
         if params[:json_data]
             sent_data = params[:json_data]
             Textdatum.create(string: sent_data)
-            @json_data = Textdatum.last.string
-            #.split(",")
-            logger.debug("デバッグです。" + @json_data)
-            logger.debug(@json_data.split(","))
-            logger.debug(@json_data.split(",").class)
-            new_array = @json_data.split(",")
             
-            #配列作り直し
-            @array = []
-            for i in 0..4 do
-                @array.push(new_array[i].to_i)
-            end
-            
-            logger.debug(@array)
-            logger.debug(@array[0].class)
 
             #data作り直し
-            @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
+            # @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
             
         end
 
-        logger.debug(@data)
+        @json_data = Textdatum.last.string
+        #.split(",")
+        logger.debug("送られてきたデータは、" + @json_data)
+        logger.debug(@json_data.split(","))
+        logger.debug(@json_data.split(",").class)
+        new_array = @json_data.split(",")
+        
+        #配列作り直し
+        @array = []
+        for i in 0..4 do
+            @array.push(new_array[i].to_i)
+            logger.debug("Viewに表示するデータは、" + @array[i].to_s)
+        end
+        
+        
+        logger.debug(@array[0].class)
+        @array = @array.to_s
+        logger.debug(@array)
+        logger.debug(@array.class)
 
         #送られてきたデータを保存するところまではOK(保存必要？)
         #取り出して、出力も可能
