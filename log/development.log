@@ -34366,3 +34366,1316 @@ Processing by ConnectController#delete as HTML
 Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 4830)
 
 
+Started GET "/" for ::1 at 2022-12-02 11:36:17 +0900
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 28.2ms | Allocations: 8287)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 14174)
+Completed 200 OK in 98ms (Views: 57.5ms | ActiveRecord: 2.0ms | Allocations: 18670)
+
+
+Started GET "/" for ::1 at 2022-12-02 11:36:18 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 6515)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 10146)
+Completed 200 OK in 35ms (Views: 30.1ms | ActiveRecord: 0.2ms | Allocations: 11415)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:20 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.9ms | Allocations: 139)
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 2494)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:22 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:23 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:24 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:25 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:26 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:27 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:28 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1403)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:30 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:36:32 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started GET "/" for ::1 at 2022-12-02 11:39:00 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: 5a4a2dfcadfcc957ce16
+Version: webpack 4.46.0
+Time: 2555ms
+Built at: 2022/12/02 11:39:05
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-63775477f4dd18413c74.js    741 KiB        index  [emitted] [immutable]  index
+      js/index-63775477f4dd18413c74.js.map    777 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-63775477f4dd18413c74.js js/index-63775477f4dd18413c74.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 3.64 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5134.8ms | Allocations: 9560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5152.9ms | Allocations: 15432)
+Completed 200 OK in 5197ms (Views: 5161.0ms | ActiveRecord: 1.1ms | Allocations: 20054)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:06 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.9ms | Allocations: 136)
+Completed 200 OK in 10ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2487)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:07 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 9ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1424)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:08 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:09 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:10 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:11 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:12 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:13 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:14 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:15 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:16 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:17 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:18 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:20 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:22 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:23 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:24 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:25 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:26 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:27 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:31 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:33 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1414)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:34 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:35 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:38 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:39 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:40 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:42 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:43 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:44 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:45 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:47 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:48 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:48 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:49 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:50 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 1.1ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:52 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+
+Started POST "/" for ::1 at 2022-12-02 11:39:53 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1402)
+
+

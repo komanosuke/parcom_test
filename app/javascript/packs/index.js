@@ -6,15 +6,10 @@ function toHalfNumber(str) {
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const graphButton = document.getElementById("graphButton");
-    graphButton.addEventListener("click", () => { graph() });
-});
+
 function graph(){
 	let labels = [];
-	let scores = [];
 	let $label = document.getElementsByClassName('label');
-	let $score = document.getElementsByClassName('numbers');
     let $array = document.getElementById('title').textContent;
     $array = String($array)
     $array = $array.replace("[", "");
@@ -26,7 +21,6 @@ function graph(){
 
 	for(let i = 0; i < $label.length; i++){
 		labels.push($label[i].textContent);
-		scores.push(Number(toHalfNumber($score[i].value)));
 	}
 	
 	let data = [
@@ -36,11 +30,6 @@ function graph(){
 		{ label: labels[3], y: Number($array[3]) },
 		{ label: labels[4], y: Number($array[4]) }
 	];
-	let avg = 0;
-	for(let i = 0; i < scores.length; i++){
-		avg += scores[i];
-	}
-	avg = avg/5;
 	
 	let stage = document.getElementById('stage');
 	let chart = new CanvasJS.Chart(stage, {
