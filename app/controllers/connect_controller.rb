@@ -39,6 +39,7 @@ class ConnectController < ApplicationController
             # @data = [['01/01', @array[0]],['01/02', @array[1]],['01/03', @array[2]],['01/04', @array[3]],['01/05', @array[4]]]
             
         end
+        @json_data = "not exist!"
         if Textdatum.exist?
             @json_data = Textdatum.last.string
         end
