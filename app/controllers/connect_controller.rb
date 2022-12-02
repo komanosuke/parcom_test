@@ -112,12 +112,12 @@ class ConnectController < ApplicationController
         # RestClient.get 'https://parcomsend.herokuapp.com/send_data/index', {params: {json_data: "JSONの送信が成功しました。"}}
         # @req = body
 
-        uri = URI('https://parcomsend.herokuapp.com/send_data/index')
-        params = { :api_key => 'your_api_key' }
-        uri.query = URI.encode_www_form(params)
+        # uri = URI('https://parcomsend.herokuapp.com/send_data/index')
+        # params = { :api_key => 'your_api_key' }
+        # uri.query = URI.encode_www_form(params)
 
-        res = Net::HTTP.get_response(uri)
-        puts res.body if res.is_a?(Net::HTTPSuccess)
+        # res = Net::HTTP.get_response(uri)
+        # puts res.body if res.is_a?(Net::HTTPSuccess)
     end
 
 end

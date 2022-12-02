@@ -67,11 +67,10 @@ function postSettingData(){
 
     console.log("選択されているのは" + checkValue + "です");
     data_to_send = String(checkValue);
-    
 
 	$.ajax({
-		//url: 'https://parcomsend.herokuapp.com/send_data/index',
-        url: 'connect/index',
+		url: 'https://parcomsend.herokuapp.com/send_data/index',
+        //url: 'connect/index',
 		type: 'GET',
 		dataType: 'text',
 		async: true,
@@ -88,7 +87,7 @@ function postSettingData(){
 
 
 
-//ーーーーーーーーーーーーーーーーこれより下はラズパイサーバーーーーーーーーーーーーーーーーー
+//ーーーーーーーーーーーーーーーーこれより下はラズパイサーバ(仮想)ーーーーーーーーーーーーーーーーー
 
 
 //データをどの方法で渡すか？DBなしで表示できるのか？
