@@ -40343,3 +40343,55 @@ Entrypoint index = js/index-9e5f020a5ce800b33255.js js/index-9e5f020a5ce800b3325
 Completed 200 OK in 4892ms (Views: 4886.1ms | ActiveRecord: 0.2ms | Allocations: 8728)
 
 
+Started GET "/" for ::1 at 2022-12-04 21:55:33 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:43:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/komaitoshihiko/Desktop/parcom_test/public/packs
+[Webpacker] Hash: a68a2f831a4ebc124d95
+Version: webpack 4.46.0
+Time: 2520ms
+Built at: 2022/12/04 21:55:39
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js   2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map    2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js   4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map   4.68 KiB       change  [emitted] [dev]        change
+          js/index-2e542e841757772ae2bd.js    742 KiB        index  [emitted] [immutable]  index
+      js/index-2e542e841757772ae2bd.js.map    778 KiB        index  [emitted] [dev]        index
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-2e542e841757772ae2bd.js js/index-2e542e841757772ae2bd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.21 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} [built]
+    + 433 hidden modules
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 5233.7ms | Allocations: 4878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5250.9ms | Allocations: 10711)
+Completed 200 OK in 5298ms (Views: 5257.8ms | ActiveRecord: 1.2ms | Allocations: 15317)
+
+
