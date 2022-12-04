@@ -149,6 +149,6 @@ function submit(){
     submitButton.click();
 }
 
-setInterval(postData, 1000);
-setInterval(submit, 1000);
-setInterval(graph, 1000);
+// setInterval(postData, 1000);
+// setInterval(submit, 1000);
+// setInterval(graph, 1000);
