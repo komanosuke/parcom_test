@@ -1,3 +1,4 @@
+# coding: utf-8
 class ConnectController < ApplicationController
     require 'net/https'
     require 'uri'
