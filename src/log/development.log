@@ -40395,3 +40395,3453 @@ Entrypoint index = js/index-2e542e841757772ae2bd.js js/index-2e542e841757772ae2b
 Completed 200 OK in 5298ms (Views: 5257.8ms | ActiveRecord: 1.2ms | Allocations: 15317)
 
 
+Started GET "/" for ::1 at 2022-12-07 12:12:14 +0900
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/cable" for ::1 at 2022-12-07 12:12:28 +0900
+Started GET "/cable/" [WebSocket] for ::1 at 2022-12-07 12:12:28 +0900
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+[Webpacker] Compilation failed:
+Hash: 759a7c037500b8ceb810
+Version: webpack 4.46.0
+Time: 15260ms
+Built at: 2022/12/07 12:12:34
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-46053b6c1c221eb238fd.js  2.57 MiB  application  [emitted] [immutable]  application
+js/application-46053b6c1c221eb238fd.js.map   2.4 MiB  application  [emitted] [dev]        application
+         js/change-152b013a8ca50f91c7cf.js  4.71 KiB       change  [emitted] [immutable]  change
+     js/change-152b013a8ca50f91c7cf.js.map  4.68 KiB       change  [emitted] [dev]        change
+          js/index-ff9c945417609c8813cd.js   742 KiB        index  [emitted] [immutable]  index
+      js/index-ff9c945417609c8813cd.js.map   778 KiB        index  [emitted] [dev]        index
+         js/server-6fc029a0e0ed3444d0fb.js  2.36 MiB       server  [emitted] [immutable]  server
+     js/server-6fc029a0e0ed3444d0fb.js.map  2.04 MiB       server  [emitted] [dev]        server
+                             manifest.json  1.24 KiB               [emitted]              
+Entrypoint application = js/application-46053b6c1c221eb238fd.js js/application-46053b6c1c221eb238fd.js.map
+Entrypoint change = js/change-152b013a8ca50f91c7cf.js js/change-152b013a8ca50f91c7cf.js.map
+Entrypoint index = js/index-ff9c945417609c8813cd.js js/index-ff9c945417609c8813cd.js.map
+Entrypoint server = js/server-6fc029a0e0ed3444d0fb.js js/server-6fc029a0e0ed3444d0fb.js.map
+[0] util (ignored) 15 bytes {server} [built]
+[1] util (ignored) 15 bytes {server} [built]
+[2] ./streams (ignored) 15 bytes {server} [built]
+[3] ./extend-node (ignored) 15 bytes {server} [built]
+[5] http (ignored) 15 bytes {server} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 584 bytes {application} [built]
+[./app/javascript/packs/change.js] 866 bytes {change} [built]
+[./app/javascript/packs/index.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/server.js] 6.69 KiB {server} [built]
+[./node_modules/express/lib sync recursive] ./node_modules/express/lib sync 160 bytes {server} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {server} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 861 bytes {server} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 553 bytes {application} {index} {server} [built]
+    + 764 hidden modules
+
+WARNING in ./node_modules/express/lib/view.js 72:13-25
+Critical dependency: the request of a dependency is an expression
+ @ ./node_modules/express/lib/application.js
+ @ ./node_modules/express/lib/express.js
+ @ ./node_modules/express/index.js
+ @ ./app/javascript/packs/server.js
+
+WARNING in ./node_modules/on-finished/index.js
+Module not found: Error: Can't resolve 'async_hooks' in '/Users/komaitoshihiko/Desktop/parcom_test/src/node_modules/on-finished'
+ @ ./node_modules/on-finished/index.js
+ @ ./node_modules/express/lib/response.js
+ @ ./node_modules/express/lib/express.js
+ @ ./node_modules/express/index.js
+ @ ./app/javascript/packs/server.js
+
+WARNING in ./node_modules/raw-body/index.js
+Module not found: Error: Can't resolve 'async_hooks' in '/Users/komaitoshihiko/Desktop/parcom_test/src/node_modules/raw-body'
+ @ ./node_modules/raw-body/index.js
+ @ ./node_modules/body-parser/lib/read.js
+ @ ./node_modules/body-parser/lib/types/urlencoded.js
+ @ ./node_modules/body-parser/index.js
+ @ ./app/javascript/packs/server.js
+
+ERROR in ./app/javascript/packs/server.js
+Module not found: Error: Can't resolve 'socket.io' in '/Users/komaitoshihiko/Desktop/parcom_test/src/app/javascript/packs'
+ @ ./app/javascript/packs/server.js 173:15-35
+
+  Rendered connect/index.html.erb within layouts/application (Duration: 19570.4ms | Allocations: 19870)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19627.1ms | Allocations: 36613)
+Completed 200 OK in 19658ms (Views: 19634.1ms | ActiveRecord: 0.9ms | Allocations: 42793)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:35 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.7ms | Allocations: 137)
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 2452)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 40)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 40)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:38 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:39 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:40 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:41 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:42 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 1.1ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:43 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:44 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:46 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 12:12:47 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started GET "/websocket_test" for ::1 at 2022-12-07 12:17:55 +0900
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/websocket_test"):
+  
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:18:10 +0900
+Processing by ConnectController#websocket_test as HTML
+Started GET "/cable" for ::1 at 2022-12-07 12:18:28 +0900
+Started GET "/cable/" [WebSocket] for ::1 at 2022-12-07 12:18:28 +0900
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Started GET "/websocket_test" for ::1 at 2022-12-07 12:18:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/websocket_test"):
+  
+Started GET "/websocket_test" for ::1 at 2022-12-07 12:18:53 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/websocket_test"):
+  
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:19:14 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 75019ms (ActiveRecord: 0.0ms | Allocations: 101013)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "192.168.0.238" port 8080):
+  
+app/controllers/connect_controller.rb:85:in `initialize'
+app/controllers/connect_controller.rb:85:in `open'
+app/controllers/connect_controller.rb:85:in `websocket_test'
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Completed 500 Internal Server Error in 75003ms (ActiveRecord: 0.0ms | Allocations: 103219)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "192.168.0.238" port 8080):
+  
+app/controllers/connect_controller.rb:85:in `initialize'
+app/controllers/connect_controller.rb:85:in `open'
+app/controllers/connect_controller.rb:85:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:26:02 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Started GET "/cable" for ::1 at 2022-12-07 12:26:28 +0900
+Started GET "/cable/" [WebSocket] for ::1 at 2022-12-07 12:26:28 +0900
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Redirected to http://localhost:3000/connect/error
+Completed 302 Found in 75014ms (ActiveRecord: 0.0ms | Allocations: 18944)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:28:27 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Started GET "/cable" for ::1 at 2022-12-07 12:28:28 +0900
+Started GET "/cable/" [WebSocket] for ::1 at 2022-12-07 12:28:28 +0900
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Completed 500 Internal Server Error in 75014ms (ActiveRecord: 0.0ms | Allocations: 14563)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "192.168.0.238" port 8080):
+  
+app/controllers/connect_controller.rb:85:in `initialize'
+app/controllers/connect_controller.rb:85:in `open'
+app/controllers/connect_controller.rb:85:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:49:42 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 3.4ms | Allocations: 943)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 6893)
+Completed 200 OK in 58ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 9685)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:50:09 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Started GET "/cable" for ::1 at 2022-12-07 12:50:28 +0900
+Started GET "/cable/" [WebSocket] for ::1 at 2022-12-07 12:50:28 +0900
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Subscription class not found: "RoomChannel"
+Completed 500 Internal Server Error in 75074ms (ActiveRecord: 0.0ms | Allocations: 13446)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "192.168.0.238" port 8080):
+  
+app/controllers/connect_controller.rb:85:in `initialize'
+app/controllers/connect_controller.rb:85:in `open'
+app/controllers/connect_controller.rb:85:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 12:53:46 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Started GET "/" for ::1 at 2022-12-07 13:03:16 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 3678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 9479)
+Completed 200 OK in 65ms (Views: 39.4ms | ActiveRecord: 1.6ms | Allocations: 14021)
+
+
+Started POST "/" for ::1 at 2022-12-07 13:03:18 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.2ms | Allocations: 136)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 2426)
+
+
+Started GET "/" for ::1 at 2022-12-07 13:03:18 +0900
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6279)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.1ms | Allocations: 7602)
+
+
+Started POST "/" for ::1 at 2022-12-07 13:03:20 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 13:04:45 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 8671ms (ActiveRecord: 0.0ms | Allocations: 1710)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "54.64.49.214" port 8080):
+  
+app/controllers/connect_controller.rb:86:in `initialize'
+app/controllers/connect_controller.rb:86:in `open'
+app/controllers/connect_controller.rb:86:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 13:06:30 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 75014ms (ActiveRecord: 0.0ms | Allocations: 1820)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "172.31.36.4" port 8000):
+  
+app/controllers/connect_controller.rb:86:in `initialize'
+app/controllers/connect_controller.rb:86:in `open'
+app/controllers/connect_controller.rb:86:in `websocket_test'
+Started GET "/" for ::1 at 2022-12-07 14:26:29 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 3678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 9479)
+Completed 200 OK in 65ms (Views: 35.9ms | ActiveRecord: 1.1ms | Allocations: 14021)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:31 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.9ms | Allocations: 136)
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 2426)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:32 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 1396)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:33 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 40)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1394)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:34 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:35 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:38 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.6ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:39 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:40 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:41 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:42 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.3ms | Allocations: 39)
+Completed 200 OK in 12ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:43 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:44 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:45 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:46 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:47 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 1.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:48 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:49 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:50 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 14:26:50 +0900
+Processing by ConnectController#websocket_test as HTML
+Started POST "/" for ::1 at 2022-12-07 14:26:51 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:52 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1386)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:53 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:54 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:55 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:56 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:58 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:58 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:26:59 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:00 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:01 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:02 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:03 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:04 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:05 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:07 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:07 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:08 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:09 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:11 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:11 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:12 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:13 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:15 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:15 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:17 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:17 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:18 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:19 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:20 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 1.2ms | ActiveRecord: 1.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:22 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:23 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:24 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:25 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 1386)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:26 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:27 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:28 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:30 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:31 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:32 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:33 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:34 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:38 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.5ms | Allocations: 39)
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:39 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:40 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:27:41 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:20 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 2.8ms | Allocations: 261)
+Completed 200 OK in 32ms (Views: 8.2ms | ActiveRecord: 0.8ms | Allocations: 5280)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:21 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.0ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 3508)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:22 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 1403)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:23 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:24 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:25 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:26 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:27 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:28 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.8ms | Allocations: 39)
+Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:29 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:30 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:31 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:32 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:33 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:34 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:35 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:36 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-07 14:52:37 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 39)
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 14:52:37 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 2.1ms | Allocations: 816)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 6756)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 7736)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 14:58:35 +0900
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 1523)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:105:in `send'
+app/controllers/connect_controller.rb:105:in `block in websocket_test'
+app/controllers/connect_controller.rb:103:in `open'
+app/controllers/connect_controller.rb:103:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:05:23 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 6.5ms | Allocations: 818)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 131.6ms | Allocations: 6732)
+Completed 200 OK in 139ms (Views: 136.0ms | Allocations: 7996)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:55:08 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 1500)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:105:in `send'
+app/controllers/connect_controller.rb:105:in `block in websocket_test'
+app/controllers/connect_controller.rb:103:in `open'
+app/controllers/connect_controller.rb:103:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:55:37 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 75027ms (ActiveRecord: 0.0ms | Allocations: 1821)
+
+
+  
+Errno::ETIMEDOUT (Operation timed out - connect(2) for 192.168.0.238:8080):
+  
+app/controllers/connect_controller.rb:111:in `connect'
+app/controllers/connect_controller.rb:111:in `block in websocket_test'
+app/controllers/connect_controller.rb:109:in `open'
+app/controllers/connect_controller.rb:109:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:57:40 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):
+  
+app/controllers/connect_controller.rb:119:in `connect'
+app/controllers/connect_controller.rb:119:in `block in websocket_test'
+app/controllers/connect_controller.rb:117:in `open'
+app/controllers/connect_controller.rb:117:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:58:03 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.6ms | Allocations: 824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 6738)
+Completed 200 OK in 41ms (Views: 39.9ms | Allocations: 8003)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:58:21 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 4406)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 4976)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:58:23 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.0ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3923)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 4315)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:58:47 +0900
+Processing by ConnectController#websocket_test as HTML
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 15:59:29 +0900
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:00:27 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1491)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_server.socket):
+  
+app/controllers/connect_controller.rb:136:in `initialize'
+app/controllers/connect_controller.rb:136:in `open'
+app/controllers/connect_controller.rb:136:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:01:43 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 591)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):
+  
+app/controllers/connect_controller.rb:119:in `connect'
+app/controllers/connect_controller.rb:119:in `block in websocket_test'
+app/controllers/connect_controller.rb:117:in `open'
+app/controllers/connect_controller.rb:117:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:01:45 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 566)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):
+  
+app/controllers/connect_controller.rb:119:in `connect'
+app/controllers/connect_controller.rb:119:in `block in websocket_test'
+app/controllers/connect_controller.rb:117:in `open'
+app/controllers/connect_controller.rb:117:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:01:46 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 566)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):
+  
+app/controllers/connect_controller.rb:119:in `connect'
+app/controllers/connect_controller.rb:119:in `block in websocket_test'
+app/controllers/connect_controller.rb:117:in `open'
+app/controllers/connect_controller.rb:117:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:02:50 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 558)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:02:52 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 564)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:18 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 596)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:19 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 564)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:20 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 564)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:21 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 564)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:33 +0900
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 1567)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:35 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 602)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:107:in `send'
+app/controllers/connect_controller.rb:107:in `block in websocket_test'
+app/controllers/connect_controller.rb:105:in `open'
+app/controllers/connect_controller.rb:105:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:03:48 +0900
+Processing by ConnectController#websocket_test as HTML
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:06:31 +0900
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 4.4ms | Allocations: 943)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 6890)
+Completed 200 OK in 78ms (Views: 52.7ms | ActiveRecord: 0.0ms | Allocations: 9686)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:06:46 +0900
+Processing by ConnectController#websocket_test as HTML
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:07:44 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:09:18 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 5.0ms | Allocations: 943)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 6890)
+Completed 200 OK in 50ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 9687)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 16:10:31 +0900
+Processing by ConnectController#websocket_test as HTML
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 17:52:49 +0900
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 2.9ms | Allocations: 942)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.0ms | Allocations: 6889)
+Completed 200 OK in 55ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 9685)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 17:53:40 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 4368)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 4941)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 17:54:34 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 567)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:104:in `send'
+app/controllers/connect_controller.rb:104:in `block in websocket_test'
+app/controllers/connect_controller.rb:102:in `open'
+app/controllers/connect_controller.rb:102:in `websocket_test'
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 17:57:59 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 3.6ms | Allocations: 943)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 6890)
+Completed 200 OK in 69ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 9884)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-07 17:59:57 +0900
+Processing by ConnectController#websocket_test as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 574)
+
+
+  
+Errno::ECONNREFUSED (Connection refused - sendto(2)):
+  
+app/controllers/connect_controller.rb:104:in `send'
+app/controllers/connect_controller.rb:104:in `block in websocket_test'
+app/controllers/connect_controller.rb:102:in `open'
+app/controllers/connect_controller.rb:102:in `websocket_test'
+Started GET "/" for ::1 at 2022-12-08 10:03:49 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ConnectController#index as HTML
+
+  [1m[36mTextdatum Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering layout layouts/application.html.erb
+  Rendering connect/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered connect/index.html.erb within layouts/application (Duration: 26.7ms | Allocations: 3678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | Allocations: 9479)
+Completed 200 OK in 90ms (Views: 53.4ms | ActiveRecord: 1.0ms | Allocations: 14390)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:50 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 1.2ms | Allocations: 137)
+Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 2449)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:51 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1396)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:52 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:53 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 40)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1394)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:54 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:55 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.2ms | Allocations: 40)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 1395)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:56 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:57 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:58 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:03:59 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1374)
+
+
+Started POST "/" for ::1 at 2022-12-08 10:04:00 +0900
+Processing by ConnectController#index as JS
+  Parameters: {"title"=>"", "commit"=>"タイトルを変更する"}
+
+  [1m[36mTextdatum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "textdata" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/connect_controller.rb:45:in `index'
+送られてきたデータは、not exist!
+["not exist!"]
+Array
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Viewに表示するデータは、0
+Integer
+[0, 0, 0, 0, 0]
+String
+
+  Rendering connect/index.js.erb
+  Rendered connect/index.js.erb (Duration: 0.1ms | Allocations: 39)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 1374)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:01 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.1ms | Allocations: 327)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 4052)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4574)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:34 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.4ms | Allocations: 677)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4365)
+Completed 200 OK in 23ms (Views: 21.1ms | Allocations: 4935)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:47 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 4402)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4973)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:48 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.4ms | Allocations: 201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3924)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4318)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:56 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.5ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4401)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 4971)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:04:57 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3923)
+Completed 200 OK in 11ms (Views: 10.5ms | Allocations: 4317)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:05:07 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 4363)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 4933)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:08:57 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 3.8ms | Allocations: 676)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 4364)
+Completed 200 OK in 37ms (Views: 32.2ms | Allocations: 4935)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:11:02 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.8ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 4363)
+Completed 200 OK in 35ms (Views: 33.9ms | Allocations: 4928)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:11:02 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 1.4ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3923)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 4312)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:11:24 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 0.8ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4402)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 4973)
+
+
+Started GET "/connect/websocket_test" for ::1 at 2022-12-08 10:17:00 +0900
+Processing by ConnectController#websocket_test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering connect/websocket_test.html.erb within layouts/application
+  Rendered connect/websocket_test.html.erb within layouts/application (Duration: 10.7ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 83.9ms | Allocations: 3923)
+Completed 200 OK in 121ms (Views: 90.1ms | Allocations: 4317)
+
+

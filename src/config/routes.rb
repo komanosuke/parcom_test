@@ -10,5 +10,9 @@ Rails.application.routes.draw do
   post 'connect/index'
 
   get 'connect/post_message'
+  get 'connect/websocket_test'
+  get 'connect/websocket_test_close'
+  get 'connect/error'
   get 'connect/delete'
+
 end

@@ -4,6 +4,7 @@ class ConnectController < ApplicationController
     require 'uri'
     require 'json'
     require 'rest-client'
+    require "socket"
     skip_before_action :verify_authenticity_token
     
 
@@ -78,6 +79,79 @@ class ConnectController < ApplicationController
             format.html
             format.js
         end
+    end
+
+    def websocket_test
+        # socket = TCPSocket.open("192.168.0.238", 8080)
+        # socket = TCPSocket.open("0.0.0.0", 8888)
+        # socket.send("pi", 0)
+
+        # server = TCPServer.open(8888)
+        # socket_accept = server.accept
+        # buf = socket_accept.gets
+        # pp buf
+        # logger.debug(buf)
+        # require 'socket
+
+        # #試験用　inet,dgram ok
+        Socket.open(:INET, :DGRAM) do |sock|
+        addr = Socket.sockaddr_in(9001, '127.0.0.1')
+        sock.send('hello inet dgram', 0, addr)
+        end
+
+        # #inet,dgram ok
+        # Socket.open(:INET, :DGRAM) do |sock|
+        # addr = Socket.sockaddr_in(8080, '192.168.0.238')
+        # sock.send("ID?", 0, addr)
+        # end
+
+        # #unix,dgram no(Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):)
+        # Socket.open(:UNIX, :DGRAM) do |sock|
+        # addr = Socket.sockaddr_un('/tmp/unix_dgram.socket')
+        # sock.send("ID?", 0, addr)
+        # end
+
+        # #inet,stream no(server停止・待機？)
+        # Socket.open(:INET, :STREAM) do |sock|
+        # addr = Socket.sockaddr_in(8080, '192.168.0.238')
+        # sock.connect addr
+        # sock.write "ID?"
+        # p sock.gets
+        # end
+
+        # #unix,stream no(Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_stream.socket):)
+        # Socket.open(:UNIX, :STREAM) do |sock|
+        # addr = Socket.sockaddr_un('/tmp/unix_stream.socket')
+        # sock.connect addr
+        # sock.write "ID?"
+        # p sock.gets
+        # end
+
+        # #udp, open ok
+        # UDPSocket.open do |sock|
+        # sock.send("ID?", 0, '192.168.0.238', 8080)
+        # end
+
+        # #tcp, open no(server停止・待機？)
+        # TCPSocket.open('192.168.0.238', 8080) do |sock|
+        # sock.write "ID?"
+        # p sock.gets
+        # end
+
+        # #unix, open no(Errno::ECONNREFUSED (Connection refused - connect(2) for /tmp/unix_server.socket):)
+        # UNIXSocket.open('/tmp/unix_server.socket') do |sock|
+        # sock.write "ID?"
+        # p sock.gets
+        # end
+    end
+
+    # def websocket_test_close
+    #     socket.close
+    #     server.close
+    # end
+
+    def error
+        
     end
 
     def delete
